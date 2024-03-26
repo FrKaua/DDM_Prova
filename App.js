@@ -1,15 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native'
-import Kaua from './SRC/componentes/Kaua/main';
-import Murilo from './SRC/componentes/Murilo';
+import { StyleSheet, Text, View } from 'react-native';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Murilo/>
-      <Kaua/>
-
-      
+<Kaua/>
+<Murilo/>
+   
     </View>
     
   ); 
